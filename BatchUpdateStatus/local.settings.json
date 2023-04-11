@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true"
+  },
+  "Host": {
+    "CORS": "*",
+    "LocalHttpPort": "7999"
+  },
+  "ConnectionStrings": {
+    "cdpbatch": {
+      "ConnectionString": "Data Source=.\\SQLExpress;Database=BatchImport;user id=sa;password=Welcome@1;Integrated Security=True;MultipleActiveResultSets=True",
+      "ProviderName": "System.Data.SqlClient"
+    }
+  }
+}
